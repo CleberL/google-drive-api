@@ -1,0 +1,22 @@
+{
+  "name": "drive-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "CleberL",
+  "scripts": {
+    "start": "nodemon src/Server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "helmet": "^3.21.3",
+    "localenv": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.12.1"
+  }
+}
