@@ -27,7 +27,6 @@ class App {
 
   async client() {
     await this.drive.start();
-    this.drive.list();
   }
 }
 export default new App().server;

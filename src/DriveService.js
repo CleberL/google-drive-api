@@ -10,8 +10,7 @@ class DriveService {
   }
 
   list() {
-    // drive = await driveInstance;
-    this.drive?.files?.list(
+    this.drive.files.list(
       {
         pageSize: 10,
         fields: 'nextPageToken, files(id, name)',
